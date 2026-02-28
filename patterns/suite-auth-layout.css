@@ -1,0 +1,16 @@
+.suite-auth-layout {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 24px 16px;
+  background: linear-gradient(145deg, #f8fafc 0%, #f1f5f9 45%, #eef2ff 100%);
+}
+
+.suite-auth-layout__center {
+  position: relative;
+  z-index: 1;
+  min-height: calc(100vh - 48px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

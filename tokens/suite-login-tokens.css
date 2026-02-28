@@ -1,0 +1,25 @@
+:root {
+  --suite-bg-base: linear-gradient(145deg, #f8fafc 0%, #f1f5f9 45%, #eef2ff 100%);
+  --suite-grid-line: rgba(148, 163, 184, 0.06);
+  --suite-orb-warm: radial-gradient(circle at 35% 35%, rgba(253, 186, 116, 0.92), rgba(251, 113, 133, 0.24) 70%, transparent 82%);
+  --suite-orb-cool: radial-gradient(circle at 35% 35%, rgba(125, 211, 252, 0.86), rgba(96, 165, 250, 0.2) 68%, transparent 80%);
+  --suite-orb-neutral: radial-gradient(circle at 40% 40%, rgba(255, 255, 255, 0.88), rgba(196, 181, 253, 0.12) 70%, transparent 84%);
+  --suite-panel-bg: rgba(255, 255, 255, 0.45);
+  --suite-panel-border: rgba(255, 255, 255, 0.25);
+  --suite-panel-shadow: 0 42px 108px -36px rgba(15, 23, 42, 0.36), 0 22px 42px -28px rgba(15, 23, 42, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.48);
+  --suite-panel-radius: 32px;
+  --suite-panel-blur: 32px;
+  --suite-text-primary: #0f172a;
+  --suite-text-secondary: rgba(15, 23, 42, 0.72);
+  --suite-text-muted: rgba(71, 85, 105, 0.86);
+  --suite-input-bg: rgba(255, 255, 255, 0.7);
+  --suite-input-border: rgba(255, 255, 255, 0.5);
+  --suite-input-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  --suite-input-focus-ring: rgba(99, 102, 241, 0.22);
+  --suite-brand-frame-bg: rgba(255, 255, 255, 0.38);
+  --suite-brand-frame-border: rgba(255, 255, 255, 0.7);
+  --suite-brand-frame-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.72);
+  --suite-auth-max-width: 560px;
+  --suite-auth-padding-x: 24px;
+  --suite-auth-padding-y: 28px;
+}

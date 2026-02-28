@@ -1,0 +1,40 @@
+{
+  "background": {
+    "base": "linear-gradient(145deg, #f8fafc 0%, #f1f5f9 45%, #eef2ff 100%)",
+    "gridLine": "rgba(148, 163, 184, 0.06)",
+    "warmOrb": "rgba(253, 186, 116, 0.92)",
+    "coolOrb": "rgba(125, 211, 252, 0.86)",
+    "neutralOrb": "rgba(255, 255, 255, 0.88)"
+  },
+  "panel": {
+    "background": "rgba(255, 255, 255, 0.45)",
+    "border": "rgba(255, 255, 255, 0.25)",
+    "shadow": "0 42px 108px -36px rgba(15, 23, 42, 0.36), 0 22px 42px -28px rgba(15, 23, 42, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.48)",
+    "radius": 32,
+    "blur": 32
+  },
+  "typography": {
+    "textPrimary": "#0f172a",
+    "textSecondary": "rgba(15, 23, 42, 0.72)",
+    "textMuted": "rgba(71, 85, 105, 0.86)"
+  },
+  "inputs": {
+    "background": "rgba(255, 255, 255, 0.7)",
+    "border": "rgba(255, 255, 255, 0.5)",
+    "focusRing": "rgba(99, 102, 241, 0.22)"
+  },
+  "brandFrame": {
+    "background": "rgba(255, 255, 255, 0.38)",
+    "border": "rgba(255, 255, 255, 0.7)",
+    "shadow": "inset 0 1px 0 rgba(255, 255, 255, 0.72)"
+  },
+  "spacing": {
+    "authMaxWidth": 560,
+    "authPaddingX": 24,
+    "authPaddingY": 28
+  },
+  "motion": {
+    "enterDurationMs": 300,
+    "standardEase": "ease-out"
+  }
+}
