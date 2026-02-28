@@ -18,3 +18,14 @@ Esta base no se publica como paquete npm. Las apps consumidoras copian los archi
 ## Fuente visual
 
 El baseline actual se deriva de `portal-web`, que define el fondo atmosferico y el panel premium aprobados para la suite.
+
+## Sync
+
+Para propagar cambios del foundation a las apps consumidoras:
+
+```bash
+cd /Users/mauro/suite-ui-foundation
+./scripts/sync-suite-auth.sh
+```
+
+Este script sincroniza los componentes React compartidos a `pdr-gantt-master` y `Tasko.ai`, manteniendo el encabezado de origen en cada archivo vendorizado.

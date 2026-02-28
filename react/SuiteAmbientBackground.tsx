@@ -11,9 +11,9 @@ export type SuiteAmbientBackgroundProps = {
 
 const orbModes = {
   default: {
-    warm: "radial-gradient(circle at 35% 35%, rgba(253, 186, 116, 0.92), rgba(251, 113, 133, 0.24) 70%, transparent 82%)",
-    cool: "radial-gradient(circle at 35% 35%, rgba(125, 211, 252, 0.86), rgba(96, 165, 250, 0.2) 68%, transparent 80%)",
-    neutral: "radial-gradient(circle at 40% 40%, rgba(255, 255, 255, 0.88), rgba(196, 181, 253, 0.12) 70%, transparent 84%)"
+    warm: "var(--suite-orb-warm)",
+    cool: "var(--suite-orb-cool)",
+    neutral: "var(--suite-orb-neutral)"
   },
   warm: {
     warm: "radial-gradient(circle at 35% 35%, rgba(251, 191, 36, 0.88), rgba(251, 113, 133, 0.28) 70%, transparent 82%)",
@@ -32,7 +32,7 @@ function orbStyle(background: string, style: CSSProperties): CSSProperties {
     position: "absolute",
     borderRadius: 9999,
     filter: "blur(24px)",
-    opacity: 0.82,
+    opacity: 0.8,
     background,
     ...style,
   };
@@ -53,7 +53,7 @@ export function SuiteAmbientBackground({
           className="absolute inset-0"
           style={{
             backgroundImage:
-              "linear-gradient(to right, rgba(148, 163, 184, 0.06) 1px, transparent 1px), linear-gradient(to bottom, rgba(148, 163, 184, 0.06) 1px, transparent 1px)",
+              "linear-gradient(to right, var(--suite-grid-line) 1px, transparent 1px), linear-gradient(to bottom, var(--suite-grid-line) 1px, transparent 1px)",
             backgroundSize: "56px 56px",
             maskImage: "radial-gradient(circle at center, black 55%, transparent 100%)",
           }}
